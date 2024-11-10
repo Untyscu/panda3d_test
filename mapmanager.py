@@ -4,7 +4,7 @@ class MapManager():
         self.model = 'block.egg' # модель кубика у файлі block.egg
         self.texture = 'block.png'# текстура куба
         self.color = (0.2, 0.2, 0.35, 1) #rgba
-        self.addBlock((0,10, 0))
+        # self.addBlock((0,10, 0))
     def startNew(self):
         self.land = render.attachNewNode("Land")
     def addBlock(self, position):
